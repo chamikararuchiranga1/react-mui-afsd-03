@@ -32,7 +32,6 @@ export default function Axios() {
     }
 
     const postData = () => {
-        console.log(id, title, body)
         instance.post('/posts', {
             title: title,
             body: body,
